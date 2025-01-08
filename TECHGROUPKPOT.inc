@@ -1,5 +1,6 @@
 TABLE TECHGROUPKPOT(CCCRRRAAA,TECH_GROUP)       'Technology group capacity restriction by geography (MW)'                         
                                                                                                           RESERVOIR_PMP           
+$ontext
 DK1                                                                                                       eps                     
 DK2                                                                                                       eps                     
 FIN                                                                                                       eps                     
@@ -41,6 +42,15 @@ BG                                                                              
 GR                                                                                                        2952                    
 IE                                                                                                        2952                    
 LU                                                                                                        2952                    
+AL                                                                                                        11000                   
+ME                                                                                                        2952                    
+MK                                                                                                        2952                    
+BA                                                                                                        2952                    
+RS                                                                                                        2952                    
+TR                                                                                                        36000                   
+MT                                                                                                        2952                    
+CY                                                                                                        2952                    
+$offtext
                                                                                                                                   
                                                                                                                                   
 *National potentials (not activated by default)                                                                                   

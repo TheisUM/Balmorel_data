@@ -1,6 +1,5 @@
 SET PROCBUFFER(PROC) "Buffer processes (trace entering and/or leaving)"                                                                              
 /                                                                                                                                                    
-Demand                                                                                                                                               
 GasDemand                                                                                                                                            
                                                                                                                                                      
 AmmoniaBuffer_Exp                                                                                                                                    
@@ -27,7 +26,7 @@ SeaBuffer
 RoadBuffer                                                                                                                                           
 AirBuffer                                                                                                                                            
                                                                                                                                                      
-                                                                                                                                                     
+HydrogenBuffer_MWh                                                                                                                                   
                                                                                                                                                      
 Money_buffer                                                                                                                                         
 Money_buffer_T                                                                                                                                       
@@ -44,21 +43,21 @@ HeatBuffer
                                                                                                                                                      
                                                                                                                                                      
                                                                                                                                                      
-*BioGasolineBuffer                                                                                                                                   
+BioGasolineBuffer                                                                                                                                    
 *BiodieselBuffer                                                                                                                                     
-*MethanolBuffer                                                                                                                                      
+MethanolBuffer                                                                                                                                       
 *EthanolBuffer                                                                                                                                       
-*E_FT_DieselBuffer                                                                                                                                   
+E_FT_DieselBuffer                                                                                                                                    
 *EME_GasolineBuffer                                                                                                                                  
 *EME_LPGBuffer                                                                                                                                       
-*EMethanolBuffer                                                                                                                                     
+EMethanolBuffer                                                                                                                                      
                                                                                                                                                      
                                                                                                                                                      
-*BioJetBuffer                                                                                                                                        
-*E_FT_JetBuffer                                                                                                                                      
+BioJetBuffer                                                                                                                                         
+E_FT_JetBuffer                                                                                                                                       
 *EME_JetBuffer                                                                                                                                       
                                                                                                                                                      
-*AmmoniaBuffer                                                                                                                                       
+AmmoniaBuffer                                                                                                                                        
 *HTLBuffer                                                                                                                                           
                                                                                                                                                      
                                                                                                                                                      

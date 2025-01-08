@@ -31,8 +31,8 @@ EMethanolBuffer
 EMethanol_Upgrade                             
 E_FT                                          
 AmmoniaBuffer                                 
-CO2_PH                                        
-CO2_IND                                       
+CO2_FOSSIL                                        
+CO2_BIOGEN                                       
 CO2_DAC                                       
 CO2_Bio                                       
 EME_GasolineBuffer                            
