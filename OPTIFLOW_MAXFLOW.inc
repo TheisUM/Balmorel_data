@@ -39,3 +39,5 @@ MAXFLOW(YYY,CCCRRRAAA,PROC,FLOW)=MAXFLOW('2020',CCCRRRAAA,PROC,FLOW);
 *$ifi %baloptfuelbridge%==yes MAXFLOW(YYY,CCCRRRAAA,PROC,FLOW)=0;                                                                                                                    
 * No fossil CO2 after 2040                                                                                                                                                           
 MAXFLOW(Y,AAA,'CO2_Source_Fossil','CO2_SOURCE_FLOW_FOSSIL')$(AAAOPTIFLOW(AAA) AND YVALUE(Y) GE 2040) = EPS;                                                                          
+
+MAXFLOW(Y,CCCRRRAAA,'Manure_Gen','MANURE_GEN_FLOW') = 0;

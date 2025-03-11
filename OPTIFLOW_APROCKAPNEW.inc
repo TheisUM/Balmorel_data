@@ -103,13 +103,13 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2045                                                                                                               .    DK1_A .    EMethanol_Upgrade_45    
 2050                                                                                                               .    DK1_A .    EMethanol_Upgrade_50    
                                                                                                                                                            
-2020                                                                                                               .    DK1_A .    E_FT_20                 
-2025                                                                                                               .    DK1_A .    E_FT_25                 
-2030                                                                                                               .    DK1_A .    E_FT_30                 
-2035                                                                                                               .    DK1_A .    E_FT_35                 
-2040                                                                                                               .    DK1_A .    E_FT_40                 
-2045                                                                                                               .    DK1_A .    E_FT_45                 
-2050                                                                                                               .    DK1_A .    E_FT_50                 
+*2020                                                                                                               .    DK1_A .    E_FT_20                 
+*2025                                                                                                               .    DK1_A .    E_FT_25                 
+*2030                                                                                                               .    DK1_A .    E_FT_30                 
+*2035                                                                                                               .    DK1_A .    E_FT_35                 
+*2040                                                                                                               .    DK1_A .    E_FT_40                 
+*2045                                                                                                               .    DK1_A .    E_FT_45                 
+*2050                                                                                                               .    DK1_A .    E_FT_50                 
                                                                                                                                                            
 2020                                                                                                               .    DK1_A .    Ammonia_Synthesis_20    
 2025                                                                                                               .    DK1_A .    Ammonia_Synthesis_25    

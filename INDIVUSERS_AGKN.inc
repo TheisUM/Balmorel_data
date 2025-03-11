@@ -234,31 +234,31 @@ GNR_HP_ELEC_AIR-AIR_COP-360_SS-4-KW_Y-2050
                                                                                                                                                                                                       
 *GROUP 2 -  Areas with water heating                                                                                                                                                                  
 DK1_IDVU-HOTWTR.(                                                                                                                                                                                     
-GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2020                                                                                                                                                                 
-GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2030                                                                                                                                                                 
-GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2040                                                                                                                                                                 
-GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2050                                                                                                                                                                 
-GNR_BO_NGAS_E-95_SS-10-KW_Y-2020                                                                                                                                                                      
-GNR_BO_NGAS_E-96_SS-10-KW_Y-2030                                                                                                                                                                      
-GNR_BO_NGAS_E-96_SS-10-KW_Y-2040                                                                                                                                                                      
-GNR_BO_NGAS_E-97_SS-10-KW_Y-2050                                                                                                                                                                      
-GNR_BO_WOODPEL_E-78_SS-10-KW-FEED_Y-2020                                                                                                                                                              
-GNR_BO_WOODPEL_E-80_SS-8-KW-FEED_Y-2030                                                                                                                                                               
-GNR_BO_WOODPEL_E-80_SS-8-KW-FEED_Y-2040                                                                                                                                                               
-GNR_BO_WOODPEL_E-85_SS-8-KW-FEED_Y-2050                                                                                                                                                               
-GNR_HP_ELEC_AIR-WTR_COP-335_SS-4-KW_Y-2020                                                                                                                                                            
-GNR_HP_ELEC_AIR-WTR_COP-345_SS-4-KW_Y-2030                                                                                                                                                            
-GNR_HP_ELEC_AIR-WTR_COP-345_SS-4-KW_Y-2040                                                                                                                                                            
-GNR_HP_ELEC_AIR-WTR_COP-365_SS-4-KW_Y-2050                                                                                                                                                            
+*GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2020                                                                                                                                                                 
+*GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2030                                                                                                                                                                 
+*GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2040                                                                                                                                                                 
+*GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2050                                                                                                                                                                 
+*GNR_BO_NGAS_E-95_SS-10-KW_Y-2020                                                                                                                                                                      
+*GNR_BO_NGAS_E-96_SS-10-KW_Y-2030                                                                                                                                                                      
+*GNR_BO_NGAS_E-96_SS-10-KW_Y-2040                                                                                                                                                                      
+*GNR_BO_NGAS_E-97_SS-10-KW_Y-2050                                                                                                                                                                      
+*GNR_BO_WOODPEL_E-78_SS-10-KW-FEED_Y-2020                                                                                                                                                              
+*GNR_BO_WOODPEL_E-80_SS-8-KW-FEED_Y-2030                                                                                                                                                               
+*GNR_BO_WOODPEL_E-80_SS-8-KW-FEED_Y-2040                                                                                                                                                               
+*GNR_BO_WOODPEL_E-85_SS-8-KW-FEED_Y-2050                                                                                                                                                               
+*GNR_HP_ELEC_AIR-WTR_COP-335_SS-4-KW_Y-2020                                                                                                                                                            
+*GNR_HP_ELEC_AIR-WTR_COP-345_SS-4-KW_Y-2030                                                                                                                                                            
+*GNR_HP_ELEC_AIR-WTR_COP-345_SS-4-KW_Y-2040                                                                                                                                                            
+*GNR_HP_ELEC_AIR-WTR_COP-365_SS-4-KW_Y-2050                                                                                                                                                            
 GNR_HP_ELEC_GROUND-WTR_COP-370_SS-10-KW_Y-2020                                                                                                                                                        
 GNR_HP_ELEC_GROUND-WTR_COP-380_SS-10-KW_Y-2030                                                                                                                                                        
 GNR_HP_ELEC_GROUND-WTR_COP-388_SS-10-KW_Y-2040                                                                                                                                                        
 GNR_HP_ELEC_GROUND-WTR_COP-400_SS-10-KW_Y-2050                                                                                                                                                        
 GNR_HS_HEAT_WTR-TANK_SS_E-95_Y-2010                                                                                                                                                                   
-GNR_SH_SUN_SS-4-KW_Y-2020                                                                                                                                                                             
-GNR_SH_SUN_SS-4-KW_Y-2030                                                                                                                                                                             
-GNR_SH_SUN_SS-4-KW_Y-2040                                                                                                                                                                             
-GNR_SH_SUN_SS-4-KW_Y-2050                                                                                                                                                                             
+*GNR_SH_SUN_SS-4-KW_Y-2020                                                                                                                                                                             
+*GNR_SH_SUN_SS-4-KW_Y-2030                                                                                                                                                                             
+*GNR_SH_SUN_SS-4-KW_Y-2040                                                                                                                                                                             
+*GNR_SH_SUN_SS-4-KW_Y-2050                                                                                                                                                                             
 )                                                                                                                                                                                                     
                                                                                                                                                                                                       
                                                                                                                                                                                                       

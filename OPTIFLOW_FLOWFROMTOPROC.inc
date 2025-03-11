@@ -148,7 +148,7 @@ DK1_A                                                                           
 ***********BIOMASS**********************                                                                                                                                                                           
 DK1_A                                                                                                               .       Wood_Gen                  .    Solid_Biomass             .    WOOD_GEN_FLOW            
 DK1_A                                                                                                               .       Straw_Gen                 .    Solid_Biomass             .    STRAW_GEN_FLOW           
-DK1_A                                                                                                               .       Wood_Pellets_Gen          .    Solid_Biomass             .    WOOD_PELLETS_GEN_FLOW    
+*DK1_A                                                                                                               .       Wood_Pellets_Gen          .    Solid_Biomass             .    WOOD_PELLETS_GEN_FLOW    
                                                                                                                                                                                                                    
 DK1_A                                                                                                               .       Manure_Gen                .    Wet_Biomass               .    MANURE_GEN_FLOW    
 

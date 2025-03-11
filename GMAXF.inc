@@ -1,56 +1,56 @@
-TABLE GMAXF(YYY,CCCRRRAAA,FFF)  'Maximum fuel use (GJ) per year'                                                                                                               
-                                                                        STRAW     WOOD WOODWASTE BIOGAS         OTHERGAS RETORTGAS SHALE COAL PEAT NATGAS WOODCHIPS WOODPELLETS
-2016.ALBANIA                                                            1192552                  107306169.0948                                           2337087   2337087    
-2016.AUSTRIA                                                            21842210                 107306169.0948                                           46737010  46737010   
-2016.BELGIUM                                                            7358488                  107306169.0948                                           7266890   7266890    
-2016.BOSNIA_AND_HERZEGOVINA                                             2303058                  107306169.0948                                           6112565   6112565    
-2016.BULGARIA                                                           27292200                 107306169.0948                                           11233775  11233775   
-2016.CROATIA                                                            9878027                  107306169.0948                                           9786635   9786635    
-2016.CYPRUS                                                             291455                   107306169.0948                                           eps       eps        
-2016.CZECH_REPUBLIC                                                     36763470                 107306169.0948                                           32510335  32510335   
-2016.DENMARK                                                            29037390                 40193869.5249                                            4461035.5 4461035.5  
-2016.ESTONIA                                                            3397943                  4722004.5785                                             17765025  17765025   
-2016.FINLAND                                                            14483330                 17990181.8675                                            79624550  79624550   
-2016.FRANCE                                                             211786700                257187105.5387                                           113883700 113883700  
-2016.GERMANY                                                            202266800                257187105.5387                                           136483100 136483100  
-2016.GREECE                                                             14023650                 107306169.0948                                           5214940   5214940    
-2016.HUNGARY                                                            48242340                 107306169.0948                                           15252095  15252095   
-2016.IRELAND                                                            242117                   107306169.0948                                           4993466.5 4993466.5  
-2016.ITALY                                                              61673810                 257187105.5387                                           43970820  43970820   
-2016.LATVIA                                                             6985259                  7373506.1176                                             23326465  23326465   
-2016.LITHUANIA                                                          14773810                 13396211.4011                                            12580430  12580430   
-2016.LUXEMBOURG                                                         372841                   107306169.0948                                           1691534.5 1691534.5  
-2016.MALTA                                                              6886472                  107306169.0948                                           eps       eps        
-2016.MONTENEGRO                                                         82496                    107306169.0948                                           eps       eps        
-2016.NETHERLANDS                                                        5728760                  107306169.0948                                           2141437   2141437    
-2016.NORTH_MACEDONIA                                                    1498381                  107306169.0948                                           1269475.5 1269475.5  
-2016.NORWAY                                                             5923942                  18125130.7649                                            30074865  30074865   
-2016.POLAND                                                             103200100                106633628.2096                                           82393650  82393650   
-2016.PORTUGAL                                                           5837455                  107306169.0948                                           15810415  15810415   
-2016.ROMANIA                                                            57010870                 107306169.0948                                           50967350  50967350   
-2016.SERBIA                                                             19873060                 107306169.0948                                           eps       eps        
-2016.SLOVAKIA                                                           13357180                 107306169.0948                                           16199265  16199265   
-2016.SLOVENIA                                                           797214                   107306169.0948                                           15550895  15550895   
-2016.SPAIN                                                              79609180                 257187105.5387                                           33192780  33192780   
-2016.SWEDEN                                                             20078430                 28013157.6054                                            135564350 135564350  
-2016.SWITZERLAND                                                        4413720                  107306169.0948                                           17007920  17007920   
-2016.TURKEY                                                             eps                      eps                                                      eps       eps        
-2016.UNITED_KINGDOM                                                     71334410                 208572176.7846                                           21677940  21677940   
-;                                                                                                                                                                              
-GMAXF(Y,CCCRRRAAA,'STRAW')=GMAXF('2016',CCCRRRAAA,'STRAW');                                                                                                                    
-GMAXF(Y,CCCRRRAAA,'WOOD')=GMAXF('2016',CCCRRRAAA,'WOOD');                                                                                                                      
-GMAXF(Y,CCCRRRAAA,'WOODWASTE')=GMAXF('2016',CCCRRRAAA,'WOODWASTE');                                                                                                            
-GMAXF(Y,CCCRRRAAA,'BIOGAS')=GMAXF('2016',CCCRRRAAA,'BIOGAS');                                                                                                                  
-GMAXF(Y,CCCRRRAAA,'OTHERGAS')=GMAXF('2016',CCCRRRAAA,'OTHERGAS');                                                                                                              
-GMAXF(Y,CCCRRRAAA,'COAL')=GMAXF('2016',CCCRRRAAA,'COAL');                                                                                                                      
-GMAXF(Y,CCCRRRAAA,'WOODCHIPS')=GMAXF('2016',CCCRRRAAA,'WOODCHIPS');                                                                                                            
-GMAXF(Y,CCCRRRAAA,'WOODPELLETS')=GMAXF('2016',CCCRRRAAA,'WOODPELLETS');                                                                                                        
-                                                                                                                                                                               
-*Removing not needed data if stepwiseprice addon is activated                                                                                                                  
-$ifi %STEPWISEPRICE%==yes GMAXF(Y,CCCRRRAAA,STEPWISEPRICE_FFF)=0;                                                                                                              
-                                                                                                                                                                               
-$ifi %baloptgasbridge%==yes GMAXF(Y,CCCRRRAAA,'BIOGAS')$(GMAXF(Y,CCCRRRAAA,'BIOGAS'))=EPS;                                                                                                                   
-                                                                                                                                                                               
-                                                                                                                                                                               
-                                                                                                                                                                               
-                                                                                                                                                                               
+TABLE GMAXF(YYY,CCCRRRAAA,FFF)  'Maximum fuel use (GJ) per year'                                                                                                                                                
+                                                                                           STRAW            WOOD WOODWASTE BIOGAS         OTHERGAS RETORTGAS SHALE COAL PEAT NATGAS WOODCHIPS        WOODPELLETS
+2016.ALBANIA                                                                               3323476                         107306169.0948                                           14665110                    
+2016.AUSTRIA                                                                               32798340                        107306169.0948                                           232068700                   
+2016.BOSNIA_AND_HERZEGOVINA                                                                6076265                         107306169.0948                                           36858460                    
+2016.BELGIUM                                                                               10991270                        107306169.0948                                           47498980                    
+2016.BULGARIA                                                                              42383210                        107306169.0948                                           118127400                   
+2016.SWITZERLAND                                                                           5644971                         107306169.0948                                           114014100                   
+2016.CYPRUS                                                                                761592.028874277                107306169.0948                                           eps                         
+2016.CZECH_REPUBLIC                                                                        50073000                        107306169.0948                                           149314300                   
+2016.GERMANY                                                                               262269706.204774                257187105.5387                                           877359600                   
+2016.DENMARK                                                                               33870000                        40193869.5249                                            53154550                    
+2016.ESTONIA                                                                               8026000                         4722004.5785                                             93302220                    
+2016.GREECE                                                                                40449000                        107306169.0948                                           39391190                    
+2016.SPAIN                                                                                 164178000                       257187105.5387                                           306676900                   
+2016.FINLAND                                                                               24054000                        17990181.8675                                            432860800                   
+2016.FRANCE                                                                                298560000                       257187105.5387                                           594883200                   
+2016.CROATIA                                                                               14394000                        107306169.0948                                           51268740                    
+2016.HUNGARY                                                                               77372000                        107306169.0948                                           156906900                   
+2016.IRELAND                                                                               272000                          107306169.0948                                           43536560                    
+2016.ITALY                                                                                 108297000                       257187105.5387                                           367522200                   
+2016.LITHUANIA                                                                             24208000                        13396211.4011                                            88042970                    
+2016.LUXEMBOURG                                                                            793000                          107306169.0948                                           5732787                     
+2016.LATVIA                                                                                9415000                         7373506.1176                                             156243300                   
+2016.MONTENEGRO                                                                            296000                          107306169.0948                                           5728998                     
+2016.NORTH_MACEDONIA                                                                       3554000                         107306169.0948                                           14293420                    
+2016.MALTA                                                                                 23000                           107306169.0948                                           eps                         
+2016.NETHERLANDS                                                                           9317000                         107306169.0948                                           20376910                    
+2016.NORWAY                                                                                7350844.5                       18125130.7649                                            136588800                   
+2016.POLAND                                                                                103887800                       106633628.2096                                           531632800                   
+2016.PORTUGAL                                                                              13859540                        107306169.0948                                           174840300                   
+2016.ROMANIA                                                                               102277900                       107306169.0948                                           379123000                   
+2016.SERBIA                                                                                54612630                        107306169.0948                                           27928010                    
+2016.SWEDEN                                                                                23915180                        28013157.6054                                            614339800                   
+2016.SLOVENIA                                                                              1629207                         107306169.0948                                           95609620                    
+2016.SLOVAKIA                                                                              19697210                        107306169.0948                                           96399280                    
+2016.UNITED_KINGDOM                                                                        98771760                        208572176.7846                                           125140667.659738            
+2016.TURKEY                                                                                eps                             eps                                                      eps                         
+;                                                                                                                                                                                                               
+GMAXF(Y,CCCRRRAAA,'STRAW')=GMAXF('2016',CCCRRRAAA,'STRAW');                                                                                                                                                     
+GMAXF(Y,CCCRRRAAA,'WOOD')=GMAXF('2016',CCCRRRAAA,'WOOD');                                                                                                                                                       
+GMAXF(Y,CCCRRRAAA,'WOODWASTE')=GMAXF('2016',CCCRRRAAA,'WOODWASTE');                                                                                                                                             
+GMAXF(Y,CCCRRRAAA,'BIOGAS')=GMAXF('2016',CCCRRRAAA,'BIOGAS');                                                                                                                                                   
+GMAXF(Y,CCCRRRAAA,'OTHERGAS')=GMAXF('2016',CCCRRRAAA,'OTHERGAS');                                                                                                                                               
+GMAXF(Y,CCCRRRAAA,'COAL')=GMAXF('2016',CCCRRRAAA,'COAL');                                                                                                                                                       
+GMAXF(Y,CCCRRRAAA,'WOODCHIPS')=GMAXF('2016',CCCRRRAAA,'WOODCHIPS');                                                                                                                                             
+GMAXF(Y,CCCRRRAAA,'WOODPELLETS')=GMAXF('2016',CCCRRRAAA,'WOODPELLETS');                                                                                                                                         
+                                                                                                                                                                                                                
+*Removing not needed data if stepwiseprice addon is activated                                                                                                                                                   
+$ifi %STEPWISEPRICE%==yes GMAXF(Y,CCCRRRAAA,STEPWISEPRICE_FFF)=0;                                                                                                                                               
+                                                                                                                                                                                                                
+$ifi %baloptgasbridge%==yes GMAXF(Y,CCCRRRAAA,'BIOGAS')$(GMAXF(Y,CCCRRRAAA,'BIOGAS'))=EPS;                                                                                                                      
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
+                                                                                                                                                                                                                
