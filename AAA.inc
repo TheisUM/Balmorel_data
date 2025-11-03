@@ -10,7 +10,7 @@ LV_A
 NL_A                           
 PL_A                           
 UK_A                                                        
-FI_A                       
+FIN_A                       
 NO1_A                         
 NO2_A                         
 NO3_A                         
